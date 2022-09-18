@@ -4,7 +4,6 @@ $(function() {
         url: 'DLMSD/xml/cartularies.xml',
         dataType: 'xml',
         success: function(data) {
-            alert("成功!");
 
             let insertContents = '';
             $('item', data).each(function() {
@@ -22,8 +21,7 @@ $(function() {
             $('#cartulary-link-list').append(insertContents);
         },
         error: function(data){
-            alert("失敗！");
-            console.log(data);
+            alert("Failured to load data.");
         }
 
     });
