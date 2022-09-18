@@ -1,7 +1,7 @@
 $(function() {
 
     $.ajax ({
-        url: 'DLMSD/xml/cartularies.xml',
+        url: 'xml/cartularies.xml',
         dataType: 'xml',
         success: function(data) {
 
