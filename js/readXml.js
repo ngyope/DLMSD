@@ -1,8 +1,10 @@
 $(function() {
+
     $.ajax ({
-        url: '/xml/cartularies.xml',
+        url: 'xml/cartularies.xml',
         dataType: 'xml',
         success: function(data) {
+            alert("成功!");
 
             let insertContents = '';
             $('item', data).each(function() {
@@ -18,6 +20,11 @@ $(function() {
                 insertContents += '</li>';
             });
             $('#cartulary-link-list').append(insertContents);
+        },
+        error: function(data){
+            alert("失敗！");
+            console.log(data);
         }
+
     });
 });
