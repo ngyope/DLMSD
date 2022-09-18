@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Search Test</title>
+        <meta name="description" content="For search test">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+    <!-- jQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <p>This page</p>
+            <div>
+                <a href="#" class="header-nav">Search</a>
+                <a href="#" class="header-nav">Cartularies</a>
+                <a href="#" class="header-nav">Contact us</a>
+                <a href="#" class="header-nav">About</a>    
+            </div>
+        </header>
+
+        <section id="about-me" class="wrapper main-section"><!-- About me -->
+            <span class="section-title">About me</span>
+            <br>
+            <p style="text-align: justify;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            </p>
+        </section>
+
+        <section id="search-documents" class="wrapper main-section"><!-- Search Documents -->
+            <span class="section-title">Search Documents</span>
+            <br>
+            <form method="get">
+                <input type="hidden" name="search_mode" value="normal">
+                <label for="search-keywords" stle="display:none;">Search Keywords</label>
+                <input id="search-keywords" type="text" name="keywords" placeholder="Search" title="Search Documents" class="search-box-main">
+                <input type="submit" value="Search" id="search-btn">
+            </form>
+        </section>
+
+        <section id="browse-cartularies" class="wrapper main-section"><!-- Browse Documents -->
+            <span class="section-title">Browse Documents</span>
+            <ul id="cartulary-link-list">
+
+            </ul>
+        </section>
+
+        <section id="updates" class="wrapper main-section"><!-- Updates -->
+            <span class="section-title">Updates</span>
+            <ul>
+                <li><a href="">hoge</a></li>
+                <li><a href="">hoge</a></li>
+                <li><a href="">hoge</a></li>
+                <li><a href="">hoge</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <div><!-- Footer Main Menu -->
+                <ul id="footer-main-menu">
+                    <li>hoge</li>
+                    <li>hoge</li>
+                    <li>hoge</li>
+                </ul>
+            </div>
+
+            <div class="footer-logo"><!-- Footer Logo -->
+                <p><small>&copy Yuki Nakagawa</small></p>
+
+            </div>
+        </footer>
+
+        <script src="js/readXml.js" charset="utf-8"></script>
+    </body>
+</html>
