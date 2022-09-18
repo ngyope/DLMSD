@@ -10,11 +10,12 @@ $(function() {
                 let thisItem = $(this);
 
                 insertContents += '<li>';
-                insertContents += '<number>';
-                insertContents += thisItem.children('number').text();
-                insertContents += '</number>';
                 insertContents += '<p>';
+                insertContents += '<a href="' + thisItem.children('url').text() + '" targe="_blank">'; 
+                insertContents += thisItem.children('number').text();
+                insertContents += ': ';
                 insertContents += thisItem.children('title').text();
+                insertContents += '</a>';
                 insertContents += '</p>';
                 insertContents += '</li>';
             });
