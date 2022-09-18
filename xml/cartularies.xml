@@ -2,9 +2,10 @@
 <cartularies>
     <item>
         <number>0001</number>
-        <title>Registrum Episcopatus Moraviensis e Pluribus Codicibus Consarcinatum cicra A. D. MCCC, cum Continuatione Diplomatum Recentiorum usque ad A. D. MDCXXIII</title>
+        <title>Registrum Episcopatus Moraviensis</title>
         <volume></volume>
         <bib-title>C. Innes, ed., Registrum Episcopatus Moraviensis e Pluribus Codicibus Consarcinatum cicra A. D. MCCC, cum Continuatione Diplomatum Recentiorum usque ad A. D. MDCXXIII (Bannatyne Club, 1837).</bib-title>
+        <url>#</url>
         <links>
             <worldcat>https://worldcat.org/ja/title/3809410</worldcat>
             <nls>https://digital.nls.uk/publications-by-scottish-clubs/archive/81605180</nls>
